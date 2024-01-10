@@ -47,14 +47,10 @@ class One : public Volume_Converter
 		cout<<"|The value from milliliters to litres is:| " <<litres_Con <<endl; 
 		cout<<"******************************************\n";
 	}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+	
 };
 
-	//+++++++++++++++++++++++++++++//
-	//  	 SECOND CLASS         //
-	//***************************//
+	
 
 class Two : public Volume_Converter
 {
@@ -85,14 +81,8 @@ class Two : public Volume_Converter
 		cout<<"|The value from milliliters to gallons is:| " <<gallons_Con <<endl; 
 		cout<<"*******************************************\n";
 	}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+	
 };
-
-	//+++++++++++++++++++++++++++++//
-	//  	 THIRD CLASS          //
-	//***************************//
 
 class Three : public Volume_Converter
 {
@@ -124,14 +114,9 @@ class Three : public Volume_Converter
 		cout<<"|The value from liters to milliliters is:| " <<table_Spoon_Con <<endl; 
 		cout<<"******************************************\n";
 	}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+
 };
 
-	//+++++++++++++++++++++++++++++//
-	//  	 FORTH CLASS          //
-	//***************************//
 		
 class Four : public Volume_Converter
 {
@@ -163,14 +148,9 @@ class Four : public Volume_Converter
 		cout<<"|The value from liters to milliliters is:| " <<tea_Spoon_Con <<endl; 
 		cout<<"******************************************\n";
 	}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+	
 };
 
-	//+++++++++++++++++++++++++++++//
-	//  	 FIFTH CLASS          //
-	//***************************//
 class Five : public Volume_Converter
 {
 	private:
@@ -202,14 +182,10 @@ class Five : public Volume_Converter
 		cout<<"|The value from cubic to milliliters is:| " <<cubic_Inch_Con <<endl; 
 		cout<<"*****************************************\n";
 	}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+
 };
 
-	//+++++++++++++++++++++++++++++//
-	//       USE OF CLASS         //
-	//***************************//
+
 	
 class Length_Converter
 {
@@ -226,14 +202,10 @@ class Length_Converter
 			cout<<"Enter the length:";
 			cin>>length;
 		}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+
 };
 
-	//+++++++++++++++++++++++++++++//
-	//  	 SIXTH CLASS          //
-	//***************************//
+
 class Six : public Length_Converter
 {
 	private:
@@ -265,14 +237,10 @@ class Six : public Length_Converter
 			cout<<"|The value from Meter to centimeter is:| "<<cm_To_M<<endl;
 			cout<<"****************************************\n";
 		}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+	
 };
 
-	//+++++++++++++++++++++++++++++//
-	//  	SEVENTH CLASS         //
-	//***************************//
+	
 class Seventh : public Length_Converter
 {
 	private:
@@ -304,14 +272,10 @@ class Seventh : public Length_Converter
 			cout<<"|The value from Centimetre to kilometer is:| "<<cm_To_K<<endl;
 			cout<<"********************************************\n";
 		}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+	
 };
 
-	//+++++++++++++++++++++++++++++//
-	//  	  EIGHT CLASS         //
-	//***************************//
+
 class Eight : public Length_Converter
 {
 	private:
@@ -343,13 +307,9 @@ class Eight : public Length_Converter
 			cout<<"|The value from Centimetre to kilometer is:| "<<m_To_Cm<<endl;
 			cout<<"********************************************\n";
 		}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+
 };
-	//+++++++++++++++++++++++++++++//
-	//  	   NINE CLASS         //
-	//***************************//
+
 class Nine : public Length_Converter
 {
 	private:
@@ -381,14 +341,10 @@ class Nine : public Length_Converter
 			cout<<"|The value from Mile to centimetre is:| "<<mile_To_Cm<<endl;
 			cout<<"***************************************\n";
 		}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+
 };
 
-	//+++++++++++++++++++++++++++++//
-	//  	   TEN CLASS         //
-	//***************************//
+
 class Ten : public Length_Converter
 {
 	private:
@@ -420,14 +376,10 @@ class Ten : public Length_Converter
 			cout<<"|The value from Mile to centimetre is:| "<<cm_To_Yard<<endl;
 			cout<<"***************************************\n";
 		}
-	//+++++++++++++++++++++++++++++//
-	//       END OF CLASS         //
-	//***************************//
+
 };
 
-	//+++++++++++++++++++++++++++++//
-	//  	 ELEVEN CLASS         //
-	//***************************//
+
 class Eleven : public Length_Converter
 {
 	private:
